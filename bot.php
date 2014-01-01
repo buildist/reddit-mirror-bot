@@ -110,7 +110,7 @@ while(true) {
 * [**Coral Cache**](http://redirect.nyud.net/?url=$url)
 * [**Bing Cache**](http://www.bing.com/search?q=$url)
 
-*[^(Report Problem)](http://www.reddit.com/message/compose/?to=Pandalism) ^| [^(Source Code)](https://github.com/buildist/MirrorBot)*";
+*[^(Report Problem)](http://www.reddit.com/message/compose/?to=Pandalism) ^| [^(Source Code)](https://github.com/buildist/reddit-mirror-bot)*";
             $reddit->addComment('t3_'.$postID, urlencode($comment));
             d('Posted comment on '.$postID);
             $downURLs[] = $plain_url;
